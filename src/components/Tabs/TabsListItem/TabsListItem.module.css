@@ -1,0 +1,21 @@
+.base {
+  cursor: pointer;
+  color: #555555;
+  font-family: Verdana, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+  padding: 1rem 2rem;
+
+  &:hover {
+    color: #000000;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.active {
+  color: #377a6c;
+  border-bottom: 4px solid #377a6c;
+}
